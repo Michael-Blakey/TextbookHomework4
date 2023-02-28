@@ -1,3 +1,10 @@
+/**
+ * @class: PrimeNumber
+ * @author: Michael Blakey
+ * @course: ITEC2148 - 05, Spring 2023
+ * @version: 1.0
+ * @date: February 28, 2023
+ */
 import java.util.InputMismatchException;
 import java.util.Scanner;
 public class StudentGrades {
@@ -10,7 +17,7 @@ public class StudentGrades {
         System.out.println("enter student grades:");
             try {
                 input=in.nextDouble();
-            }catch(Exception e){
+            }catch(InputMismatchException e){
                 break;
             }
             grade = grade + input;
