@@ -1,3 +1,10 @@
+/**
+ * @class: PrimeNumber
+ * @author: Michael Blakey
+ * @course: ITEC2148 - 05, Spring 2023
+ * @version: 1.0
+ * @date: February 28, 2023
+ */
 import java.util.Scanner;
 public class PrimeNumber {
     public static void main(String[]args){
